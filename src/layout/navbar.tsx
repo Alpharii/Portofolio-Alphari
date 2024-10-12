@@ -14,7 +14,7 @@ export default function Navbar() {
                     <a href="#" className="text-white hover:text-black hover:bg-white px-3 py-2 rounded">Home</a>
                     <a href="#" className="text-white hover:text-black hover:bg-white px-3 py-2 rounded">Project</a>
                     <a href="#" className="text-white hover:text-black hover:bg-white px-3 py-2 rounded">Contact</a>
-                    <a href= "/CV_Muhammad_Bintang_Alphari.pdf" download className="text-white hover:text-black hover:bg-white px-3 py-2 rounded">My CV</a>
+                    <a href= "https://drive.google.com/file/d/1LAy_BgaGqgKMTgPwuA0nogO10peJLK5K/view?usp=sharing" target="_blank" download className="text-white hover:text-black hover:bg-white px-3 py-2 rounded">My CV</a>
                 </div>
                 <div className="md:hidden">
                     <button onClick={() => setIsOpen(!isOpen)} className="text-white focus:outline-none">
@@ -30,7 +30,7 @@ export default function Navbar() {
                     <a href="#" className="block mt-2 text-white hover:text-black hover:bg-white px-3 py-2 rounded">Home</a>
                     <a href="#" className="block text-white hover:text-black hover:bg-white px-3 py-2 rounded">Project</a>
                     <a href="#" className="block text-white hover:text-black hover:bg-white px-3 py-2 rounded">Contact</a>
-                    <a href="/CV_Muhammad_Bintang_Alphari.pdf" download className="block text-white hover:text-black hover:bg-white px-3 py-2 rounded">My CV</a>
+                    <a href= "https://drive.google.com/file/d/1LAy_BgaGqgKMTgPwuA0nogO10peJLK5K/view?usp=sharing" target="_blank" download className="block text-white hover:text-black hover:bg-white px-3 py-2 rounded">My CV</a>
                 </div>
             )}
         </nav>
