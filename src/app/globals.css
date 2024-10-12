@@ -25,3 +25,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.font-poppins {
+  font-family: var(--font-poppins);
+}
