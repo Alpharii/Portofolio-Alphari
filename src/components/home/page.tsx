@@ -29,7 +29,7 @@ export default function HomePage() {
                     An ordinary person who likes learning, passionate about web development. Experienced with Javascript, Typescript, Next.js, Express.js, Vue.js, and some other cool libraries and frameworks.
                 </h1>
                 <h1 className="font-poppins font-medium text-2xl mt-10">
-                    Let's Connect
+                    Lets Connect
                 </h1>
                 <div className="flex space-x-4 mt-2 justify-center md:justify-start"> {/* Centering on smaller screens */}
                     <button>

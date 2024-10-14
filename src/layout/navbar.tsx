@@ -7,7 +7,7 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="p-4">
+        <nav className="p-4 bg-black">
             <div className="container mx-auto flex justify-between items-center">
                 <a href="#" className="text-white font-poppins font-bold text-3xl">Alphari | Dev</a>
                 <div className="hidden md:flex space-x-4">
